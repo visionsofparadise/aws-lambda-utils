@@ -1,5 +1,5 @@
 import { APIGatewayEvent } from 'aws-lambda';
-import { ILogger } from './ILogger';
+import { ILogger } from 'envlog';
 import { UNAUTHORIZED_401 } from './Response';
 
 export type IAuthorizer = (event: APIGatewayEvent, logger?: ILogger) => string;

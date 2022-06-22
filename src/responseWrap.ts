@@ -1,6 +1,6 @@
 import { Callback, Context, Handler } from 'aws-lambda';
 import { APIGatewayEvent } from 'aws-lambda/trigger/api-gateway-proxy';
-import { ILogger } from './ILogger';
+import { ILogger } from 'envlog';
 import { INTERNAL_500, Response, SUCCESS_200, SUCCESS_NO_CONTENT_204 } from './Response';
 
 export const responseWrap =

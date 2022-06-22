@@ -1,4 +1,4 @@
-import { ILogger } from './ILogger';
+import { ILogger } from 'envlog';
 
 export interface IResponse {
 	statusCode: number;

@@ -1,4 +1,4 @@
-import { ILogger } from './ILogger';
+import { ILogger } from 'envlog';
 import { BAD_REQUEST_400 } from './Response';
 
 type Validator<Data> = (Data: Data) => boolean;
