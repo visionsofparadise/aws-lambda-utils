@@ -1,4 +1,4 @@
-export { cognitoAuthorizer } from './cognitoAuthorizer';
+export { IAuthorizer, cognitoAuthorizer } from './cognitoAuthorizer';
 export { inputValidator } from './inputValidator';
 export {
 	Response,
@@ -11,3 +11,4 @@ export {
 	SUCCESS_200
 } from './Response';
 export { responseWrap } from './responseWrap';
+export { tokenAuthorizer } from './tokenAuthorizer';
