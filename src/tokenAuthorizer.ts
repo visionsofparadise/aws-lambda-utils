@@ -1,4 +1,4 @@
-import { IAuthorizer } from './cognitoAuthorizer';
+import { IAuthorizer } from './cognitoOrTokenAuthorizer';
 import { UNAUTHORIZED_401 } from './Response';
 
 export const tokenAuthorizer: IAuthorizer = (event, logger) => {

@@ -1,8 +1,5 @@
-import { APIGatewayEvent } from 'aws-lambda';
-import { ILogger } from 'envlog';
+import { IAuthorizer } from './cognitoOrTokenAuthorizer';
 import { UNAUTHORIZED_401 } from './Response';
-
-export type IAuthorizer = (event: APIGatewayEvent, logger?: ILogger) => string;
 
 export const cognitoAuthorizer: IAuthorizer = (event, logger) => {
 	if (

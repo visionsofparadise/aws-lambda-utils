@@ -1,4 +1,5 @@
-export { IAuthorizer, cognitoAuthorizer } from './cognitoAuthorizer';
+export { cognitoAuthorizer } from './cognitoAuthorizer';
+export { cognitoOrTokenAuthorizer, IAuthorizer } from './cognitoOrTokenAuthorizer';
 export { inputValidator } from './inputValidator';
 export {
 	Response,
